@@ -1,0 +1,3 @@
+- Use .map()
+- Assign books.map(book => book.title) to a new variable (titles?).
+- Return titles.

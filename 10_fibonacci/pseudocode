@@ -1,0 +1,7 @@
+Fibonacci sequence: Returns the next number as the sum of the previous two numbers, starting with 1 twice in this instance (because 1 has no previous number to add, it adds itself).
+(i.e., 1,    1,    1 + 1 = 2,    1 + 2 = 3,    2 + 3 = 5,    3 + 5 = 8,    5 + 8 = 13, etc).
+
+Have a function to execute a fibonacci sequence, stopping and returning value when the loop counter equals the argument.
+- Start loopCounter on 3 (first two sequence numbers are already accounted for, and loop doesn't trigger unless sequenceNumber is 3 or more).
+- Have array of [1, 1], add array[loopCounter - 3] + array[loopCounter - 2] and concatenate result onto array.
+- loop while loopCounter <= sequenceNumber, return array[sequenceNumber - 1] after loop ends.

@@ -1,0 +1,4 @@
+- use people.forEach loop, calclate age via subtraction and assign it to person.age
+- before second people.forEach loop, assign new array "oldest" with name: "John Doe" and age: 0
+- if person.age is greater than oldest.age, oldest.age becomes person.age and oldest.name becomes person.name
+- return oldest.name at end of both loops.
