@@ -1,0 +1,7 @@
+- Create new string variable
+- Use for loop with length of original as loopCounter
+- Use newVar += oldVar.splice(-1, 1) to move last letter one at a time
+
+- Splice is an array method, not a string method.
+- loopCounter is 1, keeps going until it hits oldWord.length.
+- Use newVar += oldVar.substr(-loopCounter, 1) to copy each letter starting from end of oldWord.
