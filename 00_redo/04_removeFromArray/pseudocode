@@ -1,0 +1,6 @@
+Goal: Remove provided items from an array
+- For loop, if array[loopCounter] = toRemove, then array.splice(loopCounter, 1)
+
+Issue: Removing elements from original array changes array length.
+- Add each element (if it isn't one of the restricted elements) to a new array.
+- Use forEach loop within for loop to return true if any item matched a forbidden element. (as long as forbidden == false, element will be added).
