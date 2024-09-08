@@ -1,0 +1,12 @@
+GOAL: Create function to return given position in fibonacci sequence.
+Context: Fibonacci sequence is sum of previous two numbers, starting with 1 (ex: 1, 1, 2, 3, 5, 8).
+
+Function for fibonacci sequence:
+- loopCounter starts at 0.
+- result starts at 0 (only works because prevResults starts at "1", giving result a starting point to add with).
+- prevResult starts at 1. 
+- have resultStorage var = result.
+- result += prevResult.
+- set prevResult to resultStorage.
+
+- return result when loopCounter == sequence position (pos).
