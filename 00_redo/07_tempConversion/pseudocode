@@ -1,0 +1,8 @@
+Goal: Write two functions to convert temps C to F, or vice versa.
+Conditions: Round decimals points to one.
+Context: 
+    C to F formula: C = (C * [9/5] + 32)
+    f to C formula: F = (F - 32) * (5/9)
+
+- Converting back to integer after .toFixed() made non-decimal values
+exclude decimal points (i.e., "38.0" to 38).
