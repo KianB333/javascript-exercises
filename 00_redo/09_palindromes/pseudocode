@@ -1,0 +1,8 @@
+Goal: Check for palindromes
+Conditions: Ignore punctuation/whitespaces
+Context: Palindromes are words identical to itself if reversed
+
+- Start by removing all punctuation/whitespace/capitalization from string [use .replace() and a RegEx, plus
+.toLowerCase()].
+- Use a for loop to copy the word letter by letter, starting with string length.
+- Compare, return true if they match.
