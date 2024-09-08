@@ -1,0 +1,7 @@
+Goal: Write function to determine if year is leap year.
+Requirements:
+- Divisible by 4
+- NOT Divisible by 100, unless is divisible by 400.
+
+- One if statement, (divisible by 400) or (divisible by 4 and not by 100).
+^ Very compacted from nested if statements. 
