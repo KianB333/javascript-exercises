@@ -1,0 +1,3 @@
+Goal: Create formula to add all numbers between and including specified two.
+- LoopCounter = smallest number
+- Loop runs until > largest number.
