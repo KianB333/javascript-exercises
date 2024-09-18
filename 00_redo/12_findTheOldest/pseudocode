@@ -1,0 +1,6 @@
+Goal: Return oldest person
+Conditions: Use (new Date()).getFullYear() for people with no death date.
+
+- .map() to create person.age (if person.yearOfDeath exists, person.yearOfDeath - person.yearOfBirth.
+Otherwise, (new Date()).getFullYear() - person.yearOfBirth).
+- .sort() to make the oldest at the front, then return people[0]?
